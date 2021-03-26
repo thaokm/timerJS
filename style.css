@@ -1,0 +1,77 @@
+body {
+    margin: 30px;
+}
+
+#main {
+    width: 350px;   
+}
+
+#header {
+    font-size: 35px;
+}
+
+#footer {
+    font-size: 15px;
+    height: 45px;
+}
+
+.controls {
+    border: rgb(252, 98, 3) 1px solid;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    color:rgb(252, 98, 3);
+    background-color: rgba(255, 247, 242, 1);
+    box-shadow: rgba(255, 154, 92, 1) 1px 3px;
+    height: 150px;
+}
+
+.control-btn {
+    font-size: 15px;
+    color: rgb(252, 98, 3);
+    background-color: white;
+    border: rgb(252, 98, 3) 1px solid;
+    border-radius: 8px;
+    text-align: center;
+    transition-duration: 0.5s;
+}
+
+.control-btn:hover {
+    color: white;
+    background-color: orange;
+}
+
+.control-length {
+    font-size: 35px;
+}
+
+#timer-container {
+    border: royalblue 1px solid;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    color: royalblue;
+    background-color: rgba(225, 231, 247, 1);
+    box-shadow: rgba(102, 140, 255, 1) 1px 3px;
+    height: 150px;
+}
+
+.timer-control {
+    font-size: 20px;
+    color: royalblue;
+    background-color: white;
+    border: royalblue 1px solid;
+    border-radius: 8px;
+    min-height: 50px;
+    min-width: 50px;
+    transition-duration: 0.5s;
+}
+
+.timer-control:hover {
+    color: white;
+    background-color: royalblue;
+}
+
+#time-left {
+    font-size: 55px;
+}
